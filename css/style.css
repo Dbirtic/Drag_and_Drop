@@ -7,8 +7,8 @@ body{
     position: relative;
     height: 150px;
     width: 150px;
-    top: 5px;
-    left: 5px;
+    top: 1px;
+    left: 1px;
     cursor: pointer;
 }
 
@@ -18,7 +18,7 @@ body{
     width: 160px;
     margin: 10px;
     border: 3px salmon solid;
-    background-color: #fff;
+    background: #fff;
 }
 
 .hold{
@@ -27,6 +27,7 @@ body{
 
 .hovered {
     background: #f4f4f4;
+    border-style: dashed;
 }
 
 .invisible {
